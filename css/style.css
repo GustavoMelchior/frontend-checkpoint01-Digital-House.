@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    --cor--principal:#19181a;
+    --cor--secundaria:#A6DB86;
+    --cor--texto:#f7f7f0;
+}
+
+
+html{
+   font-size:16px;
+}
+
+img {
+        max-width: 100%;
+        border-radius:30px;
+            }
+
+a {
+        text-decoration: none;
+        color: antiquewhite;
+    }
+
+header {
+        background-color: var(--cor--principal);
+        padding-right: 20px;
+        display: flex;
+        align-items: center;
+        justify-content:space-between
+
+    }
+
+ul {
+     list-style-type: none;
+     display: flex;
+    align-items: center;
+    gap:30px;
+    justify-content: flex-end;
+    font-size: xx-large;    
+    color:var(--cor--texto)
+}
+
+
+
+.logo {
+    margin-left: 40px;
+
+}
+
+
+.baner {
+
+    height: 408px;
+    background-image: url('../img/img_baner.jpg');
+    background-repeat: no-reeat;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+.baner p {
+    color:var(----principal);
+    font-size: 1.3rem;
+    background-color: rgb(177, 144, 38);
+    margin-top: 180px;
+    margin-left: 10px;
+    margin-right: 10px;  
+    font-family: ; 
+    
+}
+.baner h1{
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    text-shadow: -1px 0 black, 0 1px black,
+        1px 0 black, 0 -1px black;
+}
+
+span {
+    color: rgb(248, 233, 233);
+}
+
+.containerPai{
+margin-top: 80px;
+display: flex;
+justify-content: center;
+justify-content: space-around;
+width: 100%;
+}    
+
+h2 {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size:2rem;
+
+}
+
+.card1{
+   
+    text-align: center;
+    height: 550px;px;
+    width: 400px;
+    border: 1px solid var(--cor--principal);
+    gap: 10px;
+    border-radius: 30px; 
+   
+
+}
+
+
+.card2{
+   
+    text-align:center;
+    height: 550px;px;
+    width: 400px;
+    border: 1px solid var(--cor--principal);
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    border-radius: 30px;  
+    
+
+}
+.card3{
+    text-align: center;
+    height: 550px;
+    width: 400px;
+    border: 1px solid var(--cor--principal);
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;  
+    border-radius: 30px;  
+}
+
+.vi-deo{
+    font-size: 2rem;
+    margin-top: 100px;
+    margin-left: 20px;
+    
+    }
+
+.video{
+top: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 2rem;
+}
+
+
+footer{
+    background-color:var(--cor--principal);
+    height: 100%;
+    margin-top: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    height:300px;
+}
+
+
+.linkedin img {
+    height: 100px;
+    width: 100px;
+    border: 1px solid var(--cor--principal);
+    
+    
+}
+
+
+.gitHub img {
+    height: 100px;
+    width: 100px;
+    border: 1px solid var(--cor--principal);
+    background-color:rgb(66, 63, 63);
+
+}
+
+
+
+
+
+
+/*Mobaile last*/
+/*Max-Width - tudo que estiver abaixo Ficara com determinado Layut*/
+
+@media  (max-width: 1280px) {
+    header{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .logo img{ 
+        height: 200px;
+        width: 200px;
+        align-items: center;
+        margin-top: 15px;
+
+    }
+ 
+
+}
+
+@media (max-width:425px) {
+header{ 
+       
+    }
+.baner p {
+font-size: 1rem;
+
+}
+.containerPai{
+    flex-direction: column;
+    gap: 70px;
+    align-items: center;
+}
+.card1{
+    margin-top: 70px;
+}
+
+.vi-deo{
+display: flex;
+justify-content: center;
+}
+footer{
+    height: 30%;
+    border: 2px red;
+}
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+
+p{
+    
+}
